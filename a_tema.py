@@ -7,18 +7,29 @@
 # Și sa zicem că verificam ca userul știe ce are pe cont ca o metoda de verificare
 
 #REZOLVARE:
+expectedPass = 'a12345'
+expectedSold = 500
+pasword = input('enter pasword')
+sold = input('enter sold')
+assert pasword==expectedPass
+assert sold==expectedSold
 
 
 #TEMA 2:Sa scrieti un set de cazuri de testare pentru o functionalitate de login -> Scrieti doua test case-uri complete,
 # iar pentru celelalte functionalitati definiti doar conditiile de testare
 
 #REZOLVARE
-#TEST CONDITION 1:
-#TEST CASE 1:
-# Summary:
-#Preconditii:
-#Pasi de reproducere:
-#Rezultatele asteptate:
+'''
+TEST CONDITION 1:
+TEST CASE 1:
+Summary:
+Preconditii:
+Pasi de reproducere:
+Rezultatele asteptate:
 
-
-
+TEST CONDITION 2:
+TEST CASE 2:
+Summary:
+Preconditii:
+Pasi de reproducere:
+Rezultatele asteptate:'''
