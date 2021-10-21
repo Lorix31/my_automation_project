@@ -2,14 +2,16 @@
 # Scrieti un program in care sa verificati daca un numar este par sau impar.'''
 #
 # #REZOLVARE
-# x = input("Enter the first number ")
-# y = input("Enter second value ")
-# output = int(x) % int(y)
-# print(output)
-# '''=>
-# Enter the first number 20
-# Enter second value 5
-# 0 nu imi dau seama daca este nr par sau nu....'''
+x = input("Enter the first number ")
+y = input("Enter second number ")
+output = int(x) % int(y)
+print(output)
+'''=>
+Enter the first number 20
+Enter second value 17
+3 nu imi dau seama daca este nr par sau nu....'''
+
+
 #
 # '''TEMA2:
 # Scrieti un program prin care sa definiti numele unui student, sa definiti notele pentru studentul respectiv la
@@ -21,23 +23,23 @@
 #
 # #REZOLVARE
 # #metoda 1
-# elev = input('numele studentului este')
-# matematica = int(input('nota la matematica este ')) #int schimba tipul de date din string in int (to cast)
-# chimie = int(input('nota la chimie este '))
-# fizica = int(input('nota la fizica este '))
-# biologie = int(input('nota la biologie este '))
-# informatica = int(input('nota la informatica este '))
-# media = (matematica + chimie + fizica + biologie + informatica) / 5
-# print(f"media este  {media}" )
-#
-# elev2 = input('numele studentului este ')
-# matematica2 = input('matematica2 ')
-# chimie2 = input('chimie2 ')
-# fizica2 = input('fizica2 ')
-# biologie2 = input('biologie2 ')
-# informatica2 = input('informatica2 ')
-# media2 = (int(matematica2)+int(chimie2)+int(fizica2)+int(informatica2))/5
-# print(f'numele studentului este {elev2} si media este {media2}')
+elev = input('numele primului student este ')
+matematica = int(input('nota la matematica este ')) #int schimba tipul de date din string in int (to cast)
+chimie = int(input('nota la chimie este '))
+fizica = int(input('nota la fizica este '))
+biologie = int(input('nota la biologie este '))
+informatica = int(input('nota la informatica este '))
+media = (matematica + chimie + fizica + biologie + informatica) / 5
+print(f"media este  {media}" )
+
+elev2 = input('numele celui de al 2lea student este ')
+matematica2 = input('matematica2 ')
+chimie2 = input('chimie2 ')
+fizica2 = input('fizica2 ')
+biologie2 = input('biologie2 ')
+informatica2 = input('informatica2 ')
+media2 = (int(matematica2)+int(chimie2)+int(fizica2)+int(biologie2)+int(informatica2))/5
+print(f'numele studentului este {elev2} si media este {media2}')
 #
 
 #metoda 2 - revin cand fac dict, liste,
@@ -63,7 +65,7 @@ if __name__ == "__main__":
     print(username)
     print(password)
 
-#
+
 # #daca un nr este +sau-
 # x=-0
 # if x==0:
@@ -72,14 +74,14 @@ if __name__ == "__main__":
 #     print('negativ')
 # else:
 #     print('pozitiv')
-# #branch testing = testam cu valori astfel incat sa trecem prin fiecare ramura
-# #tc1:x=3, expected result = pozitiv, actual result = pozitiv => pass
-# #tc2:x=-5, expected result = negativ, actual result = negativ =>pass
-# #tc3:x=0, expected result = neutru, actual result = neutru => pass
-#
-#
-#
-# #ex de trimis lui andi cu if, elif x 2,else cu 4 ramuri
+#branch testing = testam cu valori astfel incat sa trecem prin fiecare ramura
+#tc1:x=3, expected result = pozitiv, actual result = pozitiv => pass
+#tc2:x=-5, expected result = negativ, actual result = negativ =>pass
+#tc3:x=0, expected result = neutru, actual result = neutru => pass
+
+
+
+# #TEMA 4 - PT ANDYV - ex de trimis lui andi cu if, elif x 2,else cu 4 ramuri
 # '''exemplu doar cu IF si ELSE: Daca un elev a luat la examen nota > sau = cu 5 sa afiseze mesajul ''A trecut examenul'',
 # daca a luat nota <5 sa afiseze mesajul ''a picat examenul''  '''
 #

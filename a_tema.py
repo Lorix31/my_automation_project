@@ -16,7 +16,7 @@ assert sold==expectedSold
 
 
 #TEMA 2:Sa scrieti un set de cazuri de testare pentru o functionalitate de login -> Scrieti doua test case-uri complete,
-# iar pentru celelalte functionalitati definiti doar conditiile de testare
+# iar pentru celalalte functionalitati definiti doar conditiile de testare
 
 #REZOLVARE
 '''

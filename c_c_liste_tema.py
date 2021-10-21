@@ -1,6 +1,13 @@
-#tema sa adaugam si formatare si sa afisam primul element din lista a este, primul element din lista b este..
-#CUM PUN VIRGULA INTRE CE SCRIU DUPA FORMATARE?
-#LA ASTA SE REFEREA HINT-UL??? Hint: puteti sa folositi escape character (\) ?????
+'''Tema pentru acasa:
+- Luati urmatoarea instructiune:
+print(a[0], b[0], c[0])
+
+si printati urmatorul text:
+Primul element din lista a este 1 (enter) Primul element din lista b este banane (enter) Primul element din lista c este 4
+
+
+Hint: puteti sa folositi escape character (\) ?????????????'''
+
 
 a = [1,2,3]
 b = ['banane', 'mere', 'gutui']
