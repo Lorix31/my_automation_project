@@ -1,17 +1,23 @@
+# '''
+# Tema 1 - de verificat
+# Tema 2 - am facut-o cu Andy dar nu mai stiu de ce la elev1 am trecut int(intput) si la elev 2 doar intput
+# Tema 3 - o facusem cu Andy insa nu ne-a fost clar la ce te refeerai sa fie scris dintr-un alt program si as vrea sa il rez impreuna'''
+#
+#
+#
+#
 # '''TEMA1:
 # Scrieti un program in care sa verificati daca un numar este par sau impar.'''
 #
 # #REZOLVARE
-x = input("Enter the first number ")
-y = input("Enter second number ")
-output = int(x) % int(y)
-print(output)
-'''=>
-Enter the first number 20
-Enter second value 17
-3 nu imi dau seama daca este nr par sau nu....'''
-
-
+#
+#
+# x = int(input("Enter the first number "))
+# if x%2 == 0:
+#     print('Numarul este par')
+# else:
+#     print ('Numarul este impar')
+#
 #
 # '''TEMA2:
 # Scrieti un program prin care sa definiti numele unui student, sa definiti notele pentru studentul respectiv la
@@ -23,30 +29,30 @@ Enter second value 17
 #
 # #REZOLVARE
 # #metoda 1
-elev = input('numele primului student este ')
-matematica = int(input('nota la matematica este ')) #int schimba tipul de date din string in int (to cast)
-chimie = int(input('nota la chimie este '))
-fizica = int(input('nota la fizica este '))
-biologie = int(input('nota la biologie este '))
-informatica = int(input('nota la informatica este '))
-media = (matematica + chimie + fizica + biologie + informatica) / 5
-print(f"media este  {media}" )
-
-elev2 = input('numele celui de al 2lea student este ')
-matematica2 = input('matematica2 ')
-chimie2 = input('chimie2 ')
-fizica2 = input('fizica2 ')
-biologie2 = input('biologie2 ')
-informatica2 = input('informatica2 ')
-media2 = (int(matematica2)+int(chimie2)+int(fizica2)+int(biologie2)+int(informatica2))/5
-print(f'numele studentului este {elev2} si media este {media2}')
+# elev = input('numele primului student este ')
+# matematica = int(input('nota la matematica este ')) #int schimba tipul de date din string in int (to cast)
+# chimie = int(input('nota la chimie este '))
+# fizica = int(input('nota la fizica este '))
+# biologie = int(input('nota la biologie este '))
+# informatica = int(input('nota la informatica este '))
+# media = (matematica + chimie + fizica + biologie + informatica) / 5
+# print(f"media este  {media}" )
 #
-
-#metoda 2 - revin cand fac dict, liste,
+# elev2 = input('numele celui de al 2lea student este ')
+# matematica2 = input('matematica2 ')
+# chimie2 = input('chimie2 ')
+# fizica2 = input('fizica2 ')
+# biologie2 = input('biologie2 ')
+# informatica2 = input('informatica2 ')
+# media2 = (int(matematica2)+int(chimie2)+int(fizica2)+int(biologie2)+int(informatica2))/5
+# print(f'numele studentului este {elev2} si media este {media2}')
+# #
+#
+# #metoda 2 - revin cand fac dict, liste,
 
 '''TEMA 3:
- Scrieti un program care sa fie apelat dintr-un alt program(? - folosim import?). Vrem ca programul initial sa introduca numele utilizatorului si parola 
- de la tastatura, in programul de baza sa se printeze utilizatorul si parola, iar in al doilea program sa se printeze urmatorul 
+ Scrieti un program care sa fie apelat dintr-un alt program(? - folosim import?). Vrem ca programul initial sa introduca
+  numele utilizatorului si parola  de la tastatura, in programul de baza sa se printeze utilizatorul si parola, iar in al doilea program sa se printeze urmatorul
  mesaj: daca utilizatorul si parola sunt corecte: Bine ati venit, Daca utilizatorul si parola nu sunt corecte: 
  Va rugam sa incerecati din nou
 
@@ -58,14 +64,16 @@ password = input("Enter password: ")
 
 if username == 'Alina' and password =="abc123":
     authorized = 1
+    print('User is valid')
 else:
     authorized = 0
+    print('You are not authorized to use this page')
 
-if __name__ == "__main__":
+if __name__ == "__main__": #restrictioneaza
     print(username)
     print(password)
 
-
+#
 # #daca un nr este +sau-
 # x=-0
 # if x==0:
@@ -74,13 +82,14 @@ if __name__ == "__main__":
 #     print('negativ')
 # else:
 #     print('pozitiv')
-#branch testing = testam cu valori astfel incat sa trecem prin fiecare ramura
-#tc1:x=3, expected result = pozitiv, actual result = pozitiv => pass
-#tc2:x=-5, expected result = negativ, actual result = negativ =>pass
-#tc3:x=0, expected result = neutru, actual result = neutru => pass
-
-
-
+#
+# '''branch testing = testam cu valori astfel incat sa trecem prin fiecare ramura
+# tc1:x=3, expected result = pozitiv, actual result = pozitiv => pass
+# tc2:x=-5, expected result = negativ, actual result = negativ =>pass
+# tc3:x=0, expected result = neutru, actual result = neutru => pass'''
+#
+#
+#
 # #TEMA 4 - PT ANDYV - ex de trimis lui andi cu if, elif x 2,else cu 4 ramuri
 # '''exemplu doar cu IF si ELSE: Daca un elev a luat la examen nota > sau = cu 5 sa afiseze mesajul ''A trecut examenul'',
 # daca a luat nota <5 sa afiseze mesajul ''a picat examenul''  '''

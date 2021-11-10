@@ -166,6 +166,3 @@ print(max3v2(80, 55, 30)) #=> 80
 # print(a)  => daca il trecem aici, la fel nu o sa afiseze pt ca variabila 'a' supravietuieste doar in interiorul functiei, unde a fost definita
 #dar ca inainte de functie trecem a=2 si la apelare print(a) o sa ne dea rezultat. scopul acestui exemplu este sa vedem ca este important unde dam print-ul
 
-
-
-

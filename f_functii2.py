@@ -21,7 +21,7 @@ print (mathOperations(56,8,'*')) #=>448
 print (mathOperations(56,8,'radical')) #=>7,48331477
 print (mathOperations(144,8,'radical')) #12.0
 print (mathOperations(56,8,'/')) #=>other operation to be added') + None
-#=> None -La celelate operatiuni a returnat un nr insa aici returneaza un print, si nr e none. functia asteapta o
+#=> None -La celelalte operatiuni a returnat un nr insa aici returneaza un print, si nr e none. functia asteapta o
 # valoare pe care sa o afiseze si aici nu avem.
 #daca lasam la else doar return 'other operation to be added' nu mai avem None, pt ca afiseaza o valoare text, nu un print...
 

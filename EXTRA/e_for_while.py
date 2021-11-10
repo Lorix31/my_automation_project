@@ -4,7 +4,7 @@ if-else este o intersectie, niste conditii.
 '''
 
 # Exercitiu: printam 101 dalmatieni
-# rezolvare cu while
+# rezolvare cu WHILE
 print('dalmatian 1')
 print('dalmatian 2')
 print('dalmatian 101') # ar fi prea mult de scris
@@ -68,13 +68,19 @@ for n in range(0, 102, 2): #pt j de la 0 la 102 (fara ultimul index 102)
 # FOR EACH = pentru fiecare element dintr-o LISTA
 telefoane = ['iphone 7', 'samsung galaxi 10', 'HTC']
 print(telefoane) # =>['iphone 7', 'samsung galaxi 10', 'HTC']
-for telefon in telefoane: #telefon etse o avriabila denumita de noi de obicei la singular
+for telefon in telefoane: #telefon este o variabila denumita de noi de obicei la singular
     print(telefon)
     # => iphone 7
     # samsung galaxi 10
     # HTC
     print('reducere mare la ' + telefon)
-
+#=>
+# iphone 7
+# reducere mare la iphone 7
+# samsung galaxi 10
+# reducere mare la samsung galaxi 10
+# HTC
+# reducere mare la HTC
 
 
 # FOR EACH = pentru fiecare element dintr-un string
@@ -82,7 +88,7 @@ nume = 'Andy'
 for litera in nume:
     litera = litera.upper()
     print(litera)
- #A
+    # A
     # N
     # D
     # Y
@@ -94,7 +100,7 @@ else:
     print('am terminat banana') # ca si la while, se executa o data la final.
 
 
-''' BREAK & CONTINUE 
+''' BREAK & CONTINUE
 - break =  forteaza iesirea din ciclu
 - sare peste executia respectiva  dar continua restul iteratiei'''
 
@@ -119,7 +125,7 @@ for dalmatian in range(1,102):
 # Ex cu continue- vreau sa NU afisez parintii (D7 si D17)
 for dalmatian in range(1,102):
     if dalmatian == 7 or dalmatian == 17:
-        continue # opreste DOAR aceasta iteratie. nu mai merge pe linia de dedesupt print ci ne trimite la inceputul for-ului
+        continue # opreste DOAR acest print(f'Dalmatian:  {dalmatian}')asta iteratie. nu mai merge pe linia de dedesupt print ci ne trimite la inceputul for-ului
     print(f'Dalmatian:  {dalmatian}') #= printeaza de la d1 la d101 dar fara 7 si fara 17
 
 #TEMA SA IL GASIM PE POGO DAR CU WHILE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

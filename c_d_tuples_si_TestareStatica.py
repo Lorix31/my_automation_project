@@ -7,4 +7,4 @@ print(14 in my_tuples)  # => False verifica daca elementul se afla in tuple sau 
 print(my_tuples.count(5))  # => 1 verifica de cate ori apare 5 in my tuples
 # my_tuples[0] = 8 # => 'tuple' object does not support item assignment tuplurile nu se pot modifica
 tup = 2, 3, 4
-print(type(tup))  # =><class 'tuple'> NU AM INTELES CE FACE CAND PUNEM PARANYTEZE SAU NU PUNEM PARANTEZE
+print(type(tup))  # =><class 'tuple'> NU AM INTELES CE FACE CAND PUNEM PARANTEZE SAU NU PUNEM PARANTEZE

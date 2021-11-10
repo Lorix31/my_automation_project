@@ -1,3 +1,6 @@
+''' tema 1 da, tema 2 nu'''
+
+
 # De ce nu am aici venv si main.py? - am creat eu manual new-new python file si am copiat codul
 
 #TEMA 1: Comparatia pentru password si sold de la tastatura prin consola adica definiti o noua variabila sold si
@@ -20,14 +23,14 @@ assert sold==expectedSold
 
 #REZOLVARE
 '''
-TEST CONDITION 1:
+TEST CONDITION 1: verifica faptul ca utilizatorul s epoate loga cand user si aprola sunt corecte
 TEST CASE 1:
 Summary:
 Preconditii:
 Pasi de reproducere:
 Rezultatele asteptate:
 
-TEST CONDITION 2:
+TEST CONDITION 2: verifica faptul ca utilizatorul nus e poate loga daca nu itnroduce parola sau userul
 TEST CASE 2:
 Summary:
 Preconditii:
